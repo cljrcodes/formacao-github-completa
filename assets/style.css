@@ -1,0 +1,48 @@
+#general-actions {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* */
+.cabecalho {
+    background-color:#000000;
+    color: #000000;
+    margin: 0;
+    padding: 1.7rem;
+}
+.links {
+    text-decoration: none;
+    background-color: #FFFFFF;
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+}
+.links:hover {
+    background-color: grey;
+    font-weight: bold;
+    color: #000000;
+}
+.links:visited {
+    color: #000000
+}
+/* */
+.conteudo-principal {
+    margin: 0 0.4rem;
+    padding: 1.2rem;
+}
+.comandos-git {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+ul {
+    list-style-type: square;
+}
+/* */
+.rodape {
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0.5rem;
+}

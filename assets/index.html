@@ -4,35 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/style.css">
-    <title> Formação Git e GitHub </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="icon-site" href="/assets/pics/git.png">
+    <title>Git & GitHub</title>
 </head>
-<body>
-    <header>
+<body id="general-actions">
+    <header class="cabecalho">
         <nav>
-            <a href="/assets/index.html"> Página Inicial </a>
+            <a href="/assets/index.html" class="links"> Página Inicial </a>
         </nav>
     </header>
-    <main>
-        <h1> Git e GitHub </h1>
-        <p> A função do Git e GitHub é proporcionar a facilitação do "versionamento de códigos", mas ele possui inumeras funções tanto particulares e pessoais, quanto corporativas. </p>
+    <main class="conteudo-principal">
+        <h1>Conceitos Básicos de Git e Git Hub</h1>
+        <h2> O Que São Eles? </h2>
+        <p> A função do Git e do GitHub é proporcionar a facilitação do "versionamento de códigos", mas eles possuem também inumeras funções tanto particulares e pessoais, quanto corporativas que facilitam a vida do profissional desenvolvedor. </p>
         <h2>Principais Funções:</h2>
-        <ul>
+            <ul>
             <li>Hospedagem de Repositórios</li>
             <li>Colaboração em Equipes</li>
             <li>Rastreamento de Problemas e Projetos</li>
             <li>Criação de Forks e Branches</li>
             <li>Versionamento de Códigos</li>
-        </ul>
+            </ul>
         <h2>Configurando o Git</h2>
         <p>Abra o Git Bash na sua pasta de destino das informações e siga as seguintes etapas:</p>
-        <ul>
+            <ul>
             <li>$git config --global user.name "nome_do_usuario"</li>
             <li>$git config --global user.email "email@dousuario"</li>
-        </ul>
+            </ul>
         <p>Esses comandos servem para configurar as informações globais do usuário. Caso erre em algo, basta dar o comando novamente.</p>
+        <h2>Principais Comando do Git:</h2>
+            <ul>
+            <li><strong class="comandos-git">git init</strong>: Inicia um novo repositório Git no diretorio atual.</li>
+            <li><strong class="comandos-git">git clone + URL</strong>: Clona um repositório existente para o diretório local.</li>
+            <li><strong class="comandos-git">git add .</strong>: Adiciona alterações no índice e prepara essas alterações para o commit.</li>
+            <li><strong class="comandos-git">git commit -m "mensagem"</strong>: Cria um commit com as alterações adicionadas, incluindo a mensagem que descreve a mudança.</li>
+            <li><strong class="comandos-git">git status</strong>: Descreve o status atual do repositório, mostrando as adições, exclusões e modificações.</li>
+            <li><strong class="comandos-git">git log</strong>: Mostra o histórico de commits no repositório.</li>
+            <li><strong class="comandos-git">git branch [nome_da_branch]</strong>: Cria uma nova branch.</li>
+            <li><strong class="comandos-git">git branch</strong>: Lista todas as branches locais e destaca a atual.</li>
+            <li><strong class="comandos-git">git checkout [nome_da_branch]</strong>: Altera para uma branch específica.</li>
+            <li><strong class="comandos-git">git merge [branch]</strong>: Combina as branchs dentro da branch atual.</li>
+            <li><strong class="comandos-git">git pull</strong>: Atualiza o repositório LOCAL com os dados do repositório REMOTO.</li>
+            <li><strong class="comandos-git">git push [remote] [branch]</strong>: Envia os commits locais para o repositório remoto.</li>
+            <li><strong class="comandos-git">git remote -v</strong>: Lista os repositórios remotos configurados.</li>
+            <li><strong class="comandos-git">git fetch</strong>: Recupera as alterações do repositório remoto, mas não faz um merge automático.</li>
+            <li><strong class="comandos-git">git reset [arquivo]</strong>: Ele desfaz as alterações feitas no arquivo especificado.</li>
+            <li><strong class="comandos-git">git rm [arquivo]</strong>: Remove um arquivo do repositório e inclui no próximo commit.</li>
+            <li><strong class="comandos-git">git diff</strong>: Mostra as diferenças entre as alterações não adicionadas.</li>
+            <li><strong class="comandos-git">git remote add [nome_do_rep] [URL]</strong>: Adiciona um repositório remoto com nome especificado.</li>
+            <li><strong class="comandos-git">git push add origin main</strong>: Usado para fazer push's de repositório local para o remoto.</li>
+            </ul>
     </main>
-    <footer>
+    <footer class="rodape">
         <p>Developed by Claudio S Junior</p>
     </footer>
 </body>
 </html>
+
+<strong class="comandos-git"></strong>
